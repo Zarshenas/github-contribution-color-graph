@@ -1,39 +1,39 @@
 'use strict';
 
 // Themes from GitHub
-var github      = ['#eeeeee', '#9be9a8', '#40c463', '#30a14e', '#216e39'];
-var halloween   = ['#eeeeee', '#fdf156', '#ffc722', '#ff9711', '#04001b'];
+var github      = ['#161b22', '#9be9a8', '#40c463', '#30a14e', '#216e39'];
+var halloween   = ['#161b22', '#fdf156', '#ffc722', '#ff9711', '#04001b'];
 
 // Themes from Material design
-var amber       = ['#eeeeee', '#ffecb3', '#ffd54f', '#ffb300', '#ff6f00'];
-var blue        = ['#eeeeee', '#bbdefb', '#64b5f6', '#1e88e5', '#0d47a1'];
-var bluegrey    = ['#eeeeee', '#cfd8dc', '#90a4ae', '#546e7a', '#263238'];
-var brown       = ['#eeeeee', '#d7ccc8', '#a1887f', '#6d4c41', '#3e2723'];
-var cyan        = ['#eeeeee', '#b2ebf2', '#4dd0e1', '#00acc1', '#006064'];
-var deeporange  = ['#eeeeee', '#ffccbc', '#ff8a65', '#f4511e', '#bf360c'];
-var deeppurple  = ['#eeeeee', '#d1c4e9', '#9575cd', '#5e35b1', '#311b92'];
-var green       = ['#eeeeee', '#c8e6c9', '#81c784', '#43a047', '#1b5e20'];
-var grey        = ['#eeeeee', '#e0e0e0', '#9e9e9e', '#616161', '#212121'];
-var indigo      = ['#eeeeee', '#c5cae9', '#7986cb', '#3949ab', '#1a237e'];
-var lightblue   = ['#eeeeee', '#b3e5fc', '#4fc3f7', '#039be5', '#01579b'];
-var lightgreen  = ['#eeeeee', '#dcedc8', '#aed581', '#7cb342', '#33691e'];
-var lime        = ['#eeeeee', '#f0f4c3', '#dce775', '#c0ca33', '#827717'];
-var orange      = ['#eeeeee', '#ffe0b2', '#ffb74d', '#fb8c00', '#e65100'];
-var pink        = ['#eeeeee', '#f8bbd0', '#f06292', '#e91e63', '#880e4f'];
-var purple      = ['#eeeeee', '#e1bee7', '#ba68c8', '#8e24aa', '#4a148c'];
-var red         = ['#eeeeee', '#ffcdd2', '#e57373', '#e53935', '#b71c1c'];
-var teal        = ['#eeeeee', '#b2dfdb', '#4db6ac', '#00897b', '#004d40'];
-var yellowMd    = ['#eeeeee', '#fff9c4', '#fff176', '#ffd835', '#f57f17'];
+var amber       = ['#161b22', '#ffecb3', '#ffd54f', '#ffb300', '#ff6f00'];
+var blue        = ['#161b22', '#bbdefb', '#64b5f6', '#1e88e5', '#0d47a1'];
+var bluegrey    = ['#161b22', '#cfd8dc', '#90a4ae', '#546e7a', '#263238'];
+var brown       = ['#161b22', '#d7ccc8', '#a1887f', '#6d4c41', '#3e2723'];
+var cyan        = ['#161b22', '#b2ebf2', '#4dd0e1', '#00acc1', '#006064'];
+var deeporange  = ['#161b22', '#ffccbc', '#ff8a65', '#f4511e', '#bf360c'];
+var deeppurple  = ['#161b22', '#d1c4e9', '#9575cd', '#5e35b1', '#311b92'];
+var green       = ['#161b22', '#c8e6c9', '#81c784', '#43a047', '#1b5e20'];
+var grey        = ['#161b22', '#e0e0e0', '#9e9e9e', '#616161', '#212121'];
+var indigo      = ['#161b22', '#c5cae9', '#7986cb', '#3949ab', '#1a237e'];
+var lightblue   = ['#161b22', '#b3e5fc', '#4fc3f7', '#039be5', '#01579b'];
+var lightgreen  = ['#161b22', '#dcedc8', '#aed581', '#7cb342', '#33691e'];
+var lime        = ['#161b22', '#f0f4c3', '#dce775', '#c0ca33', '#827717'];
+var orange      = ['#161b22', '#ffe0b2', '#ffb74d', '#fb8c00', '#e65100'];
+var pink        = ['#161b22', '#f8bbd0', '#f06292', '#e91e63', '#880e4f'];
+var purple      = ['#161b22', '#e1bee7', '#ba68c8', '#8e24aa', '#4a148c'];
+var red         = ['#161b22', '#ffcdd2', '#e57373', '#e53935', '#b71c1c'];
+var teal        = ['#161b22', '#b2dfdb', '#4db6ac', '#00897b', '#004d40'];
+var yellowMd    = ['#161b22', '#fff9c4', '#fff176', '#ffd835', '#f57f17'];
 
 // Theme from Me
-var unicorn     = ['#eeeeee', '#6dc5fb', '#f6f68c', '#8affa4', '#f283d1'];
-var summer      = ['#eeeeee', '#eae374', '#f9d62e', '#fc913a', '#ff4e50'];
-var sunset      = ['#eeeeee', '#fed800', '#ff6f01', '#fd2f24', '#811d5e'];
+var unicorn     = ['#161b22', '#6dc5fb', '#f6f68c', '#8affa4', '#f283d1'];
+var summer      = ['#161b22', '#eae374', '#f9d62e', '#fc913a', '#ff4e50'];
+var sunset      = ['#161b22', '#fed800', '#ff6f01', '#fd2f24', '#811d5e'];
 
 // Theme from MoonAntonio
-var moon        = ['#eeeeee', '#6bcdff', '#00a1f3', '#48009a', '#4f2266'];
-var psychedelic = ['#eeeeee', '#faafe1', '#fb6dcc', '#fa3fbc', '#ff00ab'];
-var yellow      = ['#eeeeee', '#d7d7a2', '#d4d462', '#e0e03f', '#ffff00'];
+var moon        = ['#161b22', '#6bcdff', '#00a1f3', '#48009a', '#4f2266'];
+var psychedelic = ['#161b22', '#faafe1', '#fb6dcc', '#fa3fbc', '#ff00ab'];
+var yellow      = ['#161b22', '#d7d7a2', '#d4d462', '#e0e03f', '#ffff00'];
 
 var colors = {
   github: github,
